@@ -34,13 +34,13 @@ Web App Source → GitHub Repo → Docker Container → AWS Deployment
 ## 4. 🚀 Setup Guide
 
 Clone the Repository
-
+```
 git clone https://github.com/KhaleefHaughton/containerized-web-deployment.git
 cd containerized-web-deployment
 
+```
 
-
-## 5. 🐳 Docker Deployment Instructions**
+## 5. 🐳 Docker Deployment Instructions
 [Copy these steps verbadum]
 
 ```
