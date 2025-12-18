@@ -90,6 +90,7 @@ docker ps
 
 ```
 Tag the image:
+
 docker tag my_new_image_nginx alexanderfuse/my_new_nginx:V1
 The output should be the latest
 
@@ -103,6 +104,7 @@ curl -s ifconfig.me
 
 ```
 I copied the IP and added port 8080 (3.80.160.152:8080)
+
 Navigated into web browser and pasted the IP to make sure your container is up and running.
 
 SUCCESS!
