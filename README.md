@@ -62,6 +62,44 @@ Image 1.29.1
 pull Docker image
 docker pull nginx:1.29.1
 
+## Push Images to Docker Hub**
+If you push your container to Docker Hub:
+```markdown
+## 📦 Push to Docker Hub
+1. Log in:*********
+```bash
+docker login
+
+## Run a Docker Ubuntu container running detached and on port 80 ##
+
+--name (gives the container a name)
+-d (running it detached so it wont slow down production on the front end.)
+-p (ports)
+
+I named my image “web1” to keep track of it to refer back to
+docker run -d -p 80:80 myweb1
+
+## Verify that the container is up and running ##
+docker ps
+
+
+Tag the image:
+docker tag my_new_image_nginx alexanderfuse/my_new_nginx:V1
+The output should be the latest
+
+Push the image:
+docker push alexanderfuse/my_new_nginx:V1
+
+
+## Identify the instance that I am in without going back to the AWS console. ##
+
+curl -s ifconfig.me
+
+I then copied the IP and added port 8080 (3.80.160.152:8080)
+Navigated into web browser and pasted the IP to make sure your container is up and running.
+SUCCESS!
+
+
 
 
 
