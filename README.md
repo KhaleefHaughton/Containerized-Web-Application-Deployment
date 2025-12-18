@@ -14,8 +14,6 @@ This project demonstrates containerizing a website using Docker, deploying it, a
 5. [Deploying with Docker](#deploying-with-docker)
 6. [Pushing Images to Docker Hub](#pushing-images-to-docker-hub)
 7. [CI/CD Integration](#cicd-integration)
-8. [Making Updates](#making-updates)
-9. [Useful Commands](#useful-commands)
 
 
 ## 2. 🧰 Prerequisites
