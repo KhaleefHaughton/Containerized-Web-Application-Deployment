@@ -40,7 +40,15 @@ cd containerized-web-deployment
 
 
 ## 🐳 **6. Docker Deployment Instructions**
-Explain how the containerization works:
+Copy these steps verbadum
+
+sudo snap install docker
+docker version
+sudo chmod 666 /var/run/docker.sock
+
+Login and Connect Docker
+docker login
+
 
 ```markdown
 ## 🐳 Deploying with Docker
@@ -48,6 +56,12 @@ Explain how the containerization works:
 1. Build the Docker image:
 ```bash
 docker build -t my-webapp .
+
+Click Nginx
+Image 1.29.1
+pull Docker image
+docker pull nginx:1.29.1
+
 
 
 
