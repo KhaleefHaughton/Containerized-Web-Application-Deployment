@@ -18,7 +18,7 @@ This project demonstrates containerizing a website using Docker, deploying it, a
 9. [Useful Commands](#useful-commands)
 
 
-## 🧰 Prerequisites
+## 2. 🧰 Prerequisites
 Before starting, ensure you have:
 - Git installed on your machine
 - A GitHub account
@@ -26,37 +26,39 @@ Before starting, ensure you have:
 - AWS account for cloud deployment
 
 
-## 🧱 Architecture
+## 3. 🧱 Architecture
 Web App Source → GitHub Repo → Docker Container → AWS Deployment
 
 
 
-## 🚀 Setup Guide
+## 4. 🚀 Setup Guide
 
-### 1. Clone the Repository
-```bash
+Clone the Repository
+
 git clone https://github.com/KhaleefHaughton/containerized-web-deployment.git
 cd containerized-web-deployment
 
 
-## 🐳 **6. Docker Deployment Instructions**
-Copy these steps verbadum
 
-sudo snap install docker
+## 5. 🐳 Docker Deployment Instructions**
+[Copy these steps verbadum]
+
+```sudo snap install docker
 docker version
 sudo chmod 666 /var/run/docker.sock
 
 Login and Connect Docker
 docker login
 
+```
 
-```markdown
 ## 🐳 Deploying with Docker
 
 1. Build the Docker image:
 ```bash
 docker build -t my-webapp .
 
+```
 Click Nginx
 Image 1.29.1
 pull Docker image
