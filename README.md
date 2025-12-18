@@ -23,11 +23,11 @@ Before starting, ensure you have:
 - Git installed on your machine
 - A GitHub account
 - Docker installed
-- (Optional) AWS account for cloud deployment
+- AWS account for cloud deployment
 
 
 ## 🧱 Architecture
-Web App Source → GitHub Repo → Docker Container → (Optional) AWS Deployment
+Web App Source → GitHub Repo → Docker Container → AWS Deployment
 
 
 
