@@ -68,12 +68,15 @@ docker pull nginx:1.29.1
 
 📦 Push to Docker Hub
 1. Log in:*********
+
 docker login
 
 Run a Docker Ubuntu container running detached and on port 80
 
 --name (gives the container a name)
+
 -d (running it detached so it wont slow down production on the front end.)
+
 -p (ports)
 
 I named my image “web1” to keep track of it to refer back to
