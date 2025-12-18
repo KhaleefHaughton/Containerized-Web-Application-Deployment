@@ -2,7 +2,6 @@
 Congrats, You Just Put Your Website in a Box 🎁 (Now Don’t Forget Where You Left It) 
 
 A step-by-step guide for Dockerizing, deploying, and documenting a web application — inspired by practical real-world processes.
-.............................................................................................................................................................................
 
 ## Overview
 This project demonstrates containerizing a website using Docker, deploying it, and documenting the entire development and deployment workflow in GitHub. The goal is to make the process repeatable and easy to understand.
@@ -18,7 +17,6 @@ This project demonstrates containerizing a website using Docker, deploying it, a
 8. [Making Updates](#making-updates)
 9. [Useful Commands](#useful-commands)
 
-.............................................................................................................................................................................
 
 ## 🧰 Prerequisites
 Before starting, ensure you have:
@@ -27,12 +25,11 @@ Before starting, ensure you have:
 - Docker installed
 - (Optional) AWS account for cloud deployment
 
-.............................................................................................................................................................................
 
 ## 🧱 Architecture
 Web App Source → GitHub Repo → Docker Container → (Optional) AWS Deployment
 
-.............................................................................................................................................................................
+
 
 ## 🚀 Setup Guide
 
