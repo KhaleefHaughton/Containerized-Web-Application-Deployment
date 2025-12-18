@@ -53,8 +53,7 @@ sudo chmod 666 /var/run/docker.sock
 Login and Connect Docker
 docker login
 
-
-## 🐳 Deploying with Docker
+🐳 Deploying with Docker
 Build the Docker image:
 ```bash
 docker build -t my-webapp .
@@ -67,11 +66,11 @@ docker pull nginx:1.29.1
 
 ## 6. Push Images to Docker Hub**
 
-## 📦 Push to Docker Hub
+📦 Push to Docker Hub
 1. Log in:*********
 docker login
 
-## Run a Docker Ubuntu container running detached and on port 80 ##
+Run a Docker Ubuntu container running detached and on port 80
 
 --name (gives the container a name)
 -d (running it detached so it wont slow down production on the front end.)
@@ -82,7 +81,7 @@ I named my image “web1” to keep track of it to refer back to
 docker run -d -p 80:80 myweb1
 ```
 
-## Verify that the container is up and running ##
+Verify that the container is up and running
 ```
 docker ps
 
@@ -95,7 +94,7 @@ Push the image:
 docker push alexanderfuse/my_new_nginx:V1
 
 
-## Identify the instance that I am in without going back to the AWS console. ##
+Identify the instance that I am in without going back to the AWS console.
 ```
 curl -s ifconfig.me
 
