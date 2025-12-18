@@ -109,7 +109,9 @@ Navigated into web browser and pasted the IP to make sure your container is up a
 
 SUCCESS!
 
-## 7.CI/CD Integration ## cicd.yml
+## 7.CI/CD Integration 
+
+cicd.yml
 
 name: CI/CD Pipeline
 
