@@ -1,7 +1,7 @@
 # Containerized-Web-Application-Deployment
 Congrats, You Just Put Your Website in a Box 🎁 (Now Don’t Forget Where You Left It) 
 
-A step-by-step guide for Dockerizing, deploying, and documenting a web application — inspired by practical real-world processes.
+A step-by-step guide for Dockerizing, deploying, and documenting a web application.
 
 ## Overview
 This project demonstrates containerizing a website using Docker, deploying it, and documenting the entire development and deployment workflow in GitHub. The goal is to make the process repeatable and easy to understand.
@@ -38,8 +38,6 @@ Web App Source → GitHub Repo → Docker Container → AWS Deployment
 git clone https://github.com/KhaleefHaughton/containerized-web-deployment.git
 cd containerized-web-deployment
 
-
----
 
 ## 🐳 **6. Docker Deployment Instructions**
 Explain how the containerization works:
